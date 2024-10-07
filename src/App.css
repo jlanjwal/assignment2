@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+.hd1{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-color: #ffc000;
+    border-bottom-style: solid;
+    background-color: #f2f2f2;
+    border-bottom-width: thick;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hd1_c1{
+  margin-left: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.hd1_c2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 50px;
+}
+.hd1_c1 p{
+color: rgb(27, 27, 27);
 }
 
-.App-link {
-  color: #61dafb;
+.hd1_c2 p{
+  color: rgb(27, 27, 27);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boldText {
+  font-weight: bold;
+}
+
+.smallText {
+  font-size: small;
+}
+
+body {
+  max-width: 70vh;
+}
+
+.profileContainer {
+  display: flex;
+  padding-top: 15px;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  padding-bottom: 15px;
+}
+
+.workContainer {
+  display: flex;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  padding-bottom: 15px;
+}
+
+.skillsContainer {
+  display: flex;
+  align-items: baseline;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  padding-bottom: 15px;
+}
+
+.educationContainer {
+  display: flex;
+}
+
+.sectionHeader {
+  font-weight: bold;
+  font-style: italic;
+  flex-grow: 1;
+  flex-basis: 20%;
+}
+
+.skillSection {
+  flex-grow: 1;
+  flex-basis: 20%;
+}
+
+.contactContainer {
+  padding-right: 40px;
+}
+
+.nameContainer {
+  padding-left: 40px;
+}
+
+.bodydiv {
+  flex-shrink: 4;
+  flex-basis: 80%;
 }
